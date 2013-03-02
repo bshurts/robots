@@ -614,6 +614,9 @@ public class GUI extends Thread{
 		
 		JPanel panGoliath = new JPanel();
 		tabbedPane.addTab("Goliath", null, panGoliath, null);
+
+        JPanel panReaper = new JPanel();
+        tabbedPane.addTab("Reaper", null, panReaper, null);
 		
 		JPanel panPenguin = new JPanel();
 		tabbedPane.addTab("Penguin", null, panPenguin, null);
